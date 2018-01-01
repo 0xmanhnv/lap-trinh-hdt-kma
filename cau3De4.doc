@@ -1,0 +1,9 @@
+1. Lỗi sai ở trong class Demo dòng Msg m1 = new Msg("OPP");
+	- vì ta nhìn lên class Msg chỉ có 1 construct - hàm khởi tạo chính là public Msg(){ ... }
+	như thế tức là hàm khởi tạo của class Msg là hàm không có đối số, nhưng khi khai báo nó 	Msg m1 = new Msg("OPP"); thì lại có 1 đối số là 1 String "OOP" => chương trình bị lỗi
+2. Lỗi thứ 2 là class Demo dòng	testMsg m2 = new Msg();
+	- vì class testMsg extends từ class Msg nên khi khởi tạo chúng ta có thể khởi tạo là : 
+	Msg m2 = new testMsg(); hoặc Msg m2 = new Msg(); 
+	=> “Một đối tượng thuộc lớp cha có thể tham chiếu đến vùng nhớ của đối tượng thuộc lớp
+	 con nhưng ngược lại thì không”. 		
+
