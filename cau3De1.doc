@@ -1,0 +1,14 @@
+hello
+hello
+hello java
+goodbye
+goodbye
+
+
+- lý do vì: khi chạy thì sẽ chạy hàm main ở class demo, máy sẽ đọc trên xuống và thấy khởi tạo đối tượng không đối số với class Msg , ta sẽ nhìn lên class Msg có hàm constructor ko đối số sẽ in ra dòng chữ "hello". Tiếp theo khởi tạo m2 với constructor ko đối của class testMsg ta lại nhìn lên thấy constructor của class testMsg trước tiên sẽ gọi super() tức là gọi tới constructor của Msg và như thế giống như trên sẽ tiếp tục in ra dòng "hello", và sang dòng 2 của construct testMsg thì in tiếp dòng "hello  java" nữa.
+
+- Tiếp dòng code 3 trong hàm main sẽ là m1.sayGoobbye(), mà m1 là đối tượng của msg nên phương thức sayGoodbye là của Msg sẽ in ra dòng "goodbye";
+
+- tiếp theo dòng code 4 trong hàm main là m2.sayGoodbye() , m2 là đói tượng của testMsg() nhưng khi khởi tạo lại khai báo Msg m2 = new testMsg(); nên thực chất m2 vẫn là đối tượng của Msg được truy xuất đến vùng nhớ của testMsg() , nên phương thức sayGoodbye() chính là phương thúc của Msg() -> sẽ in ra chữ "goodbye"
+
+=> vây sau khi chạy chúng ta đưọc kết quả như trên
