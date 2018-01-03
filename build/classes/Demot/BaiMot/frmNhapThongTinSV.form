@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="gioiTinh">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_ngaySinh" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_gioiTinh" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_diaChi" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_email" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_diemTongKet" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_hoTen" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_maSV" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_maSV" max="32767" attributes="0"/>
+                          <Component id="txt_hoTen" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_ngaySinh" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="rd_nam" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="rd_nu" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="rd_khac" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txt_diaChi" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_email" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_diemTongKet" alignment="0" pref="448" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="273" max="-2" attributes="0"/>
+                      <Component id="btn_themSinhVien" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="53" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_maSV" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_maSV" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_hoTen" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_hoTen" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_ngaySinh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_ngaySinh" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_gioiTinh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rd_nam" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rd_nu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rd_khac" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_diaChi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_diaChi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_email" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_email" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_diemTongKet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_diemTongKet" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btn_themSinhVien" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nhap thong tin sinh vien"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_hoTen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ho ten:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_ngaySinh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ngay sinh:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_gioiTinh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gioi tinh:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_diaChi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dia chi:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_email">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_diemTongKet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diem tong ket:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_maSV">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ma sv:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_maSV">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_hoTen">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_ngaySinh">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rd_nam">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="gioiTinh"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nam"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rd_nu">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="gioiTinh"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rd_khac">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="gioiTinh"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="khac"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_diaChi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_email">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_diemTongKet">
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_themSinhVien">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Them sinh vien"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_themSinhVienActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
